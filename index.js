@@ -116,9 +116,9 @@ function questions(){
             type: 'checkbox',
             name: 'license',
             message: 'What license do you want to use? (Check one)',
-            choices: ['Apache', 'Academic', 'GNU','ISC','MIT','Mozilla', 'Open'],
-            },
-        ]);
+            choices: ['Apache', 'Academic', 'ISC','MIT','Mozilla','Open'],
+        }
+    ]);
 }
 
 // TODO: Create a function to initialize app
