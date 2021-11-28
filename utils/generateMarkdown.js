@@ -8,7 +8,7 @@ function renderLicenseBadge(license) {
 function renderLicenseSection(license) {
   if (license != 'None') {  
   return (
-      'This application is covered by the ${license} license.'
+      'This application is covered by the ${answers.license} license.'
     )} else 
       return `No license has been selected.`;
       }
@@ -42,6 +42,7 @@ function generateMarkdown(answers) {
   
   ## License
   ${renderLicenseBadge(answers.license)}
+  <br />
   ${renderLicenseSection(answers.license)}
   
   ## Contributing

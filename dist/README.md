@@ -2,11 +2,11 @@
 
   <h1 align="center">test </h1>
 
-  ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
+  
   
   ## Description
   
-  test
+  tset
   
   ## Table of Contents
   - [Description](#description)
@@ -21,11 +21,12 @@
   test
   
   ## Usage
-  tes
+  test
   
   ## License
-  ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
-  This application is covered by the ${license} license.
+  
+  <br />
+  No license has been selected.
   
   ## Contributing
   test
