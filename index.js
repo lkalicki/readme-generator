@@ -113,11 +113,12 @@ function questions(){
             }
           },
           {
-            type: 'checkbox',
+            type: 'list',
             name: 'license',
             message: 'What license do you want to use? (Check one)',
-            choices: ['Apache', 'Academic', 'ISC','MIT','Mozilla','Open'],
-        }
+            choices: ['None','Apache', 'Academic', 'ISC','MIT','Mozilla','Open'],
+          }
+      
     ]);
 }
 
