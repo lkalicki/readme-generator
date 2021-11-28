@@ -1,6 +1,6 @@
 function renderLicenseBadge(license) {
   if (license != 'None') {
-  return ` ![${license} license](https://img.shields.io/badge/license-${license}-brightgreen)`
+  return `![badge](https://img.shields.io/badge/license-${license}-brightgreen)`
   } else 
   return ``;
   }
@@ -8,9 +8,7 @@ function renderLicenseBadge(license) {
 function renderLicenseSection(license) {
   if (license != 'None') {  
   return (
-      `
-      This application is covered by the ${license} license.
-      `
+      'This application is covered by the ${license} license.'
     )} else 
       return `No license has been selected.`;
       }
@@ -20,9 +18,13 @@ function generateMarkdown(answers) {
   return `
 
   <h1 align="center">${answers.title} </h1>
+
   ${renderLicenseBadge(answers.license)}
+  
   ## Description
+  
   ${answers.description}
+  
   ## Table of Contents
   - [Description](#description)
   - [Installation](#installation)
@@ -31,17 +33,23 @@ function generateMarkdown(answers) {
   - [Contributing](#contribution)
   - [Tests](#testing)
   - [Questions](#questions)
+  
   ## Installation
   ${answers.installation}
+  
   ## Usage
   ${answers.usage}
+  
   ## License
   ${renderLicenseBadge(answers.license)}
   ${renderLicenseSection(answers.license)}
+  
   ## Contributing
   ${answers.contribution}
+  
   ## Tests
   ${answers.testing}
+ 
   ## Questions
   <br />
   If you have any questions, comments, or concerns: <br />
