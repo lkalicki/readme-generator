@@ -12,7 +12,7 @@ In order to install the README Generator, the user must download the code and th
 
 To run the application, enter 'node index.js' in the command prompt and respond to the prompted questions. 
 
-A Walkthrough video of the README Generator is available here.
+A Walkthrough video of the README Generator is available [here](https://watch.screencastify.com/v/j2MrE3c6nNEvo2nrLo4A).
 
 
 ## Contributors

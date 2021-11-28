@@ -2,11 +2,11 @@
 
   <h1 align="center">test </h1>
 
-  
+  ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
   
   ## Description
   
-  tset
+  test
   
   ## Table of Contents
   - [Description](#description)
@@ -21,12 +21,16 @@
   test
   
   ## Usage
-  test
+  tes
   
   ## License
-  
+  ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
+<<<<<<< HEAD
   <br />
-  No license has been selected.
+  This application is covered by the ${answers.license} license.
+=======
+  This application is covered by the ${license} license.
+>>>>>>> parent of 2962fb0 (fix licenses again)
   
   ## Contributing
   test
